@@ -57,4 +57,52 @@ inquirer
     });
 
 const generateREADME = (response) => 
-``
+`# ${response.title}
+
+## Table of Contents
+
+* [Description](#description)
+
+* [Installation](#installation)
+
+* [Usage](#usage)
+
+* [License](#license)
+
+* [Contributing](#contributing)
+
+* [Tests](#tests)
+
+* [Questions](#questions)
+
+
+## Description
+
+${response.description}
+
+## Installation
+
+${response.install}
+
+## Usage
+
+${response.usage}
+
+## License 
+
+This application has the following License: ${response.license}
+
+## Contributing
+
+${response.contribution}
+
+## Tests
+
+${response.test}
+
+## Questions
+
+[Check out my Github profile!](https://www.github.com/${response.github})
+
+Have any further questions? Don't hesitate to contact me via email:
+* ${response.email}`
