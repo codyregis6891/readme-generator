@@ -51,5 +51,10 @@ inquirer
         }
     ])
     .then((response) => {
-        const readme = 
-    })
+        const readme = generateREADME(response);
+        fs.writeFile('exampleREADME.md', readme, (err) => 
+        err ? console.log(err) : console.log('Success!'));
+    });
+
+const generateREADME = (response) => 
+``
