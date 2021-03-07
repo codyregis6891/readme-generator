@@ -80,29 +80,36 @@ const generateREADME = (response) =>
 
 ${response.description}
 
+
 ## Installation
 
 ${response.install}
+
 
 ## Usage
 
 ${response.usage}
 
+
 ## License 
 
 This application has the following License: ${response.license}
+
 
 ## Contributing
 
 ${response.contribution}
 
+
 ## Tests
 
 ${response.test}
+
 
 ## Questions
 
 [Check out my Github profile!](https://www.github.com/${response.github})
 
 Have any further questions? Don't hesitate to contact me via email:
-* ${response.email}`
+* ${response.email}`;
+
