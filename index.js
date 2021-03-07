@@ -50,4 +50,6 @@ inquirer
             type: 'input',
         }
     ])
-    .then
+    .then((response) => {
+        const readme = 
+    })
