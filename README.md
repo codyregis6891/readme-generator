@@ -41,3 +41,9 @@ ${response.contribution}
 
 ${response.test}
 
+## Questions
+
+[Check out my Github profile!](https://www.github.com/${response.github})
+
+Have any further questions? Don't hesitate to contact me via email:
+* ${response.email}
