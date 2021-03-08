@@ -56,9 +56,7 @@ inquirer
         err ? console.log(err) : console.log('Success!'));
     });
 
-const generateREADME = (response) => {
-
-
+const generateREADME = (response) =>
     `# ${response.title}
 
     ## Table of Contents
@@ -76,7 +74,6 @@ const generateREADME = (response) => {
     * [Tests](#tests)
 
     * [Questions](#questions)
-
 
 
     ## Description
@@ -115,6 +112,4 @@ const generateREADME = (response) => {
 
     Have any further questions? Don't hesitate to contact me via email:
     * ${response.email}`;
-    };
-
     
