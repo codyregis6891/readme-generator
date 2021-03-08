@@ -56,60 +56,65 @@ inquirer
         err ? console.log(err) : console.log('Success!'));
     });
 
-const generateREADME = (response) => 
-`# ${response.title}
-
-## Table of Contents
-
-* [Description](#description)
-
-* [Installation](#installation)
-
-* [Usage](#usage)
-
-* [License](#license)
-
-* [Contributing](#contributing)
-
-* [Tests](#tests)
-
-* [Questions](#questions)
+const generateREADME = (response) => {
 
 
-## Description
+    `# ${response.title}
 
-${response.description}
+    ## Table of Contents
 
+    * [Description](#description)
 
-## Installation
+    * [Installation](#installation)
 
-${response.install}
+    * [Usage](#usage)
 
+    * [License](#license)
 
-## Usage
+    * [Contributing](#contributing)
 
-${response.usage}
+    * [Tests](#tests)
 
-
-## License 
-
-This application has the following License: ${response.license}
-
-
-## Contributing
-
-${response.contribution}
+    * [Questions](#questions)
 
 
-## Tests
 
-${response.test}
+    ## Description
+
+    ${response.description}
 
 
-## Questions
+    ## Installation
 
-[Check out my Github profile!](https://www.github.com/${response.github})
+    ${response.install}
 
-Have any further questions? Don't hesitate to contact me via email:
-* ${response.email}`;
 
+    ## Usage
+
+    ${response.usage}
+
+
+    ## License 
+
+    This application has the following License: ${response.license}
+
+
+    ## Contributing
+
+    ${response.contribution}
+
+
+    ## Tests
+
+    ${response.test}
+
+
+    ## Questions
+
+    [Check out my Github profile!](https://www.github.com/${response.github})
+
+    Have any further questions? Don't hesitate to contact me via email:
+    * ${response.email}`;
+    };
+
+    
