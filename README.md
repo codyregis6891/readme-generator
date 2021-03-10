@@ -20,7 +20,7 @@ The live repository for this app is below:
 https://github.com/codyregis6891/readme-generator
 
 The walkthrough video can be seen here:
-
+https://drive.google.com/file/d/1rJII8zzEBl-Bi1r6UjQk-v7nIL3dD7NR/view
 
 
 
