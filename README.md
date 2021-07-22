@@ -1,6 +1,22 @@
 # README Generator
 
+
+## License
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+## Application
+
+The walkthrough video can be seen here:
+https://drive.google.com/file/d/1rJII8zzEBl-Bi1r6UjQk-v7nIL3dD7NR/view
+
+## Technology Used
+
+* Javascript
+* Node.js
+* Inquirer NPM Package
+
 
 ## Description
 
@@ -8,23 +24,16 @@ This README generator uses inquirer to obtain the user's input from questions ru
 
 ## Installation
 
-This generator was made using javaScript.  also necessary was installing and implementing inquirer.  Using the data collected, a generateLicenseBadge function was created to apply a license badge to the top of the README depending on the users choice. 
+1. Clone the Repo
+  ```sh
+  git@github.com:codyregis6891/readme-generator.git
+  ```
+2. All NPM packages required for this application are already listed as dependencies in the package.json file. Run the command 'npm i' command in your terminal at the root    directory level to install the packages.
 
-A generateREADME function was written in order to combine text layout for the README with the user input to fill out the README file. This function was assigned to a const inside the inquirer function.
-
-Finally, a writeFile function was called using this newly created const in order to create a "exampleREADME.md" file.
-
-## Application
-
-The live repository for this app is below:
-https://github.com/codyregis6891/readme-generator
-
-The walkthrough video can be seen here:
-https://drive.google.com/file/d/1rJII8zzEBl-Bi1r6UjQk-v7nIL3dD7NR/view
+3. Ensure you have Node.js installed on your machine. The application will be invoked by entering node server.js in the command line.
 
 
+## Questions or Issues?
 
-
-## Questions?
-
-Contact me: codyregis6891@yahoo.com
+* Email: codyregis6891@gmail.com
+* https://github.com/codyregis6891/readme-generator/issues
